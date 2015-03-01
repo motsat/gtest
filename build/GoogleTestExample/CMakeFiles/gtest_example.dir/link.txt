@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_example.dir/gtest_example.cpp.o  -o gtest_example  -L/var/project/gtest/build/src -lpthread ../libgtest.a ../libgtest_main.a 

@@ -249,4 +249,17 @@ if (gtest_build_tests)
 
   cxx_executable(gtest_xml_output_unittest_ test gtest)
   py_test(gtest_xml_output_unittest)
+
+  #set(GTEST_ROOT CMAKE_CURRENT_LIST_DIR)
+  #include_directories(
+  #  ${GTEST_ROOT}/include
+  #  )
+  #add_executable(gtest_example gtest_example.cpp)
+  #target_link_libraries(gtest_example
+  #  pthread
+  #  ${GTEST_ROOT}/libgtest.a
+  #  ${GTEST_ROOT}/libgtest_main.a
+  #  )
+  #cmake_minimum_required(VERSION 2.8)
 endif()
+add_subdirectory(GoogleTestExample)

@@ -1,0 +1,3 @@
+/var/project/gtest/build/CMakeFiles/gtest.dir
+/var/project/gtest/build/GoogleTestExample/CMakeFiles/gtest_example.dir
+/var/project/gtest/build/CMakeFiles/gtest_main.dir
